@@ -307,7 +307,7 @@ Dashboard hiển thị:
 
 ---
 
-# 🔄 11. Quy trình hoạt động
+# 📸 11. Sản phẩm Demo
 
 <img width="503" height="361" alt="image" src="https://github.com/user-attachments/assets/2ea3eb38-757e-4135-a857-b0467ebe2e26" />
 
