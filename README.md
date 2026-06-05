@@ -1,11 +1,28 @@
-# 🎓 Faculty of Information Technology (Dai Nam University)
+<h2 align="center">
+<a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin">
+🎓 Faculty of Information Technology (DaiNam University)
+</a>
+</h2>
 
-# XÂY DỰNG HỆ THỐNG CẢNH BÁO NGẬP LỤT SỬ DỤNG ARDUINO UNO VÀ DASHBOARD WEB
+<h1 align="center">
+XÂY DỰNG HỆ THỐNG CẢNH BÁO NGẬP LỤT SỬ DỤNG ARDUINO UNO VÀ DASHBOARD WEB
+</h1>
 
-Arduino Uno • Flask • HC-SR04 • LCD 1602 I2C • Python • IoT
+<div align="center">
+
+<!-- Thay logo.png bằng ảnh của bạn trong repo -->
+<img width="180" src="https://github.com/user-attachments/assets/77fe0fd1-2e55-4032-be3c-b1a705a1b574"/>
+
+<br><br>
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-AI-orange?style=for-the-badge&logo=tensorflow)
+![Blockchain](https://img.shields.io/badge/Blockchain-Ethereum-green?style=for-the-badge)
+![University](https://img.shields.io/badge/DaiNam-University-orange?style=for-the-badge)
+
+</div>
 
 ---
-
 # 📖 1. Giới thiệu đề tài
 
 XÂY DỰNG HỆ THỐNG CẢNH BÁO NGẬP LỤT SỬ DỤNG ARDUINO UNO VÀ DASHBOARD WEB là dự án ứng dụng công nghệ Internet of Things (IoT) nhằm giám sát mực nước theo thời gian thực và phát hiện nguy cơ ngập lụt thông qua cảm biến siêu âm HC-SR04.
