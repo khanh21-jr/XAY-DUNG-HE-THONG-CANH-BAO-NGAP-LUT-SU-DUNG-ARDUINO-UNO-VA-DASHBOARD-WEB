@@ -311,17 +311,15 @@ Dashboard hiển thị:
 
 <img width="503" height="361" alt="image" src="https://github.com/user-attachments/assets/2ea3eb38-757e-4135-a857-b0467ebe2e26" />
 
-<img width="380" height="321" alt="image" src="https://github.com/user-attachments/assets/353e8596-77b9-4ff6-a522-7c938cb7a5f8" /><br>
+<img width="380" height="321" alt="image" src="https://github.com/user-attachments/assets/353e8596-77b9-4ff6-a522-7c938cb7a5f8" />
 
-<img width="371" height="367" alt="image" src="https://github.com/user-attachments/assets/a2921dfc-5310-460a-aea6-be9ad1efd460" /><br>
+<img width="371" height="367" alt="image" src="https://github.com/user-attachments/assets/a2921dfc-5310-460a-aea6-be9ad1efd460" />
 
 <img width="387" height="300" alt="image" src="https://github.com/user-attachments/assets/86ee491b-a817-4bc5-b114-880143152337" />
 
 <img width="292" height="168" alt="image" src="https://github.com/user-attachments/assets/6c977173-5faf-428c-81f8-c76cf4228f11" />
 
 <img width="290" height="258" alt="image" src="https://github.com/user-attachments/assets/83318baf-18f4-4fb1-94f9-b97c1d6bff7a" />
-
-<img width="1024" height="731" alt="image" src="https://github.com/user-attachments/assets/05a77b5f-e849-45d8-8cbf-b093f5511661" />
 
 ---
 
