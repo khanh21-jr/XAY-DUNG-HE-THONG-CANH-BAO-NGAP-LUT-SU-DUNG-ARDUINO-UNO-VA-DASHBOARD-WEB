@@ -309,35 +309,17 @@ Dashboard hiển thị:
 
 # 🔄 11. Quy trình hoạt động
 
-Cảm biến HC-SR04
+<img width="392" height="347" alt="image" src="https://github.com/user-attachments/assets/18ca148a-8db2-4e92-b4b9-d53a3faee218" /><br>
 
-↓
+<img width="380" height="321" alt="image" src="https://github.com/user-attachments/assets/353e8596-77b9-4ff6-a522-7c938cb7a5f8" /><br>
 
-Arduino Uno
+<img width="371" height="367" alt="image" src="https://github.com/user-attachments/assets/a2921dfc-5310-460a-aea6-be9ad1efd460" /><br>
 
-↓
+<img width="387" height="300" alt="image" src="https://github.com/user-attachments/assets/86ee491b-a817-4bc5-b114-880143152337" />
 
-Xử lý dữ liệu
+<img width="292" height="168" alt="image" src="https://github.com/user-attachments/assets/6c977173-5faf-428c-81f8-c76cf4228f11" />
 
-↓
-
-Điều khiển LED & LCD
-
-↓
-
-Gửi Serial
-
-↓
-
-Flask Backend
-
-↓
-
-Dashboard Web
-
-↓
-
-Người dùng theo dõi
+<img width="290" height="258" alt="image" src="https://github.com/user-attachments/assets/83318baf-18f4-4fb1-94f9-b97c1d6bff7a" />
 
 ---
 
