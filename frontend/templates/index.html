@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bảng điều khiển cảnh báo ngập</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <main class="dashboard">
+    <header class="app-header">
+      <div class="brand-block">
+        <div class="brand-mark" aria-hidden="true">
+          <span></span>
+        </div>
+        <div>
+          <p class="eyebrow">Hệ thống giám sát ngập</p>
+          <h1>Bảng điều khiển cảnh báo ngập</h1>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="live-pill">
+          <span class="pulse-dot"></span>
+          Trực tiếp
+        </div>
+        <div id="statusBadge" class="status-badge no-reading">Đang kết nối</div>
+      </div>
+    </header>
+
+    <section class="summary-grid" aria-label="Tổng quan hệ thống">
+      <article class="hero-panel">
+        <div class="hero-copy">
+          <span class="section-label">Trạng thái hiện tại</span>
+          <strong id="statusValue">--</strong>
+          <p id="messageValue">Đang chờ dữ liệu từ cảm biến</p>
+          <div class="hero-meta">
+            <span id="updatedAt">Cập nhật: --</span>
+            <span id="connectionMode">Chế độ: --</span>
+          </div>
+        </div>
+        <div class="gauge-wrap" aria-label="Mức nước ước tính">
+          <div id="levelGauge" class="level-gauge">
+            <span id="levelValue">--</span>
+          </div>
+          <small>Mức nước ước tính</small>
+        </div>
+      </article>
+
+      <article class="metric-card">
+        <span>Khoảng cách cảm biến</span>
+        <strong><span id="distanceValue">--</span> cm</strong>
+        <small id="distanceHint">Ngưỡng nguy hiểm: <= 10 cm</small>
+      </article>
+
+      <article class="metric-card">
+        <span>Số mẫu đang lưu</span>
+        <strong id="sampleCount">0</strong>
+        <small>Lịch sử gần nhất trên server</small>
+      </article>
+
+      <article class="metric-card">
+        <span>Biến động 12 mẫu</span>
+        <strong><span id="trendValue">--</span></strong>
+        <small id="trendHint">Chưa đủ dữ liệu</small>
+      </article>
+    </section>
+
+    <section class="operations-grid">
+      <article class="panel chart-panel">
+        <div class="panel-header">
+          <div>
+            <span class="section-label">Phân tích nhanh</span>
+            <h2>Lịch sử mức nước</h2>
+          </div>
+          <div class="legend">
+            <span><i class="safe-key"></i>An toàn</span>
+            <span><i class="warning-key"></i>Cảnh báo</span>
+            <span><i class="danger-key"></i>Nguy hiểm</span>
+          </div>
+        </div>
+        <div id="historyChart" class="history-chart" aria-label="Biểu đồ mức nước"></div>
+      </article>
+
+      <aside class="panel side-panel">
+        <div class="panel-header">
+          <div>
+            <span class="section-label">Trạm đo</span>
+            <h2>Thiết bị</h2>
+          </div>
+        </div>
+        <div class="device-list">
+          <div>
+            <span>Cảm biến</span>
+            <strong>HC-SR04</strong>
+          </div>
+          <div>
+            <span>Bộ điều khiển</span>
+            <strong>Arduino Uno</strong>
+          </div>
+          <div>
+            <span>Đèn cảnh báo</span>
+            <strong>LED pin D6</strong>
+          </div>
+          <div>
+            <span>Màn hình</span>
+            <strong>LCD 1602 I2C</strong>
+          </div>
+          <div>
+            <span>Chu kỳ cập nhật</span>
+            <strong>1 giây</strong>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="operations-grid lower-grid">
+      <article class="panel">
+        <div class="panel-header">
+          <div>
+            <span class="section-label">Nhật ký</span>
+            <h2>Sự kiện cảnh báo</h2>
+          </div>
+        </div>
+        <div id="eventTimeline" class="event-timeline"></div>
+      </article>
+
+      <article class="panel">
+      <div class="panel-header">
+        <div>
+          <span class="section-label">Dữ liệu thô</span>
+          <h2>Lịch sử đo</h2>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Thời gian</th>
+              <th>Khoảng cách</th>
+              <th>Mức nước</th>
+              <th>Trạng thái</th>
+              <th>Ghi chú</th>
+            </tr>
+          </thead>
+          <tbody id="historyBody"></tbody>
+        </table>
+      </div>
+      </article>
+    </section>
+  </main>
+
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
