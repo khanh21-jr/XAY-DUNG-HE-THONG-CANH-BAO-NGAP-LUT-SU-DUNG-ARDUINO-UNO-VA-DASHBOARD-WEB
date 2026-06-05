@@ -1,5 +1,3 @@
-# XAY-DUNG-HE-THONG-CANH-BAO-NGAP-LUT-SU-DUNG-ARDUINO-UNO-VA-DASHBOARD-WEB
-
 # 🎓 Faculty of Information Technology (Dai Nam University)
 
 # XÂY DỰNG HỆ THỐNG CẢNH BÁO NGẬP LỤT SỬ DỤNG ARDUINO UNO VÀ DASHBOARD WEB
