@@ -321,6 +321,8 @@ Dashboard hiển thị:
 
 <img width="290" height="258" alt="image" src="https://github.com/user-attachments/assets/83318baf-18f4-4fb1-94f9-b97c1d6bff7a" />
 
+<img width="1024" height="731" alt="image" src="https://github.com/user-attachments/assets/05a77b5f-e849-45d8-8cbf-b093f5511661" />
+
 ---
 
 # 🚀 12. Hướng phát triển tương lai
